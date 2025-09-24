@@ -1,0 +1,16 @@
+name: global_counter_app
+description: Global counter app demonstrating use of GlobalState package.
+publish_to: "none"
+version: 0.0.1
+environment:
+  sdk: ">=2.18.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  scoped_model: ^2.0.0
+  global_state:
+    path: ../global_state
+
+flutter:
+  uses-material-design: true
